@@ -47,8 +47,7 @@ Base Connection for motor Controller
 | PWM A/B          | 3.3V                |       |
 | IN A/B 1         | Digital Pin         |       |
 | IN A/B 2         | Digital Pin         |       |
-|                  |                     |       |
-|                  |                     |       |
-|                  |                     |       |
+| OUT A/B 1        | -                   | Wire  |
+| OUT A/B 2        | -                   | Wire  |
 
 #### PWM
