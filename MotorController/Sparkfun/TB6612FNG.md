@@ -35,13 +35,6 @@ Base Connection for motor Controller
 
 #### No PWM
 
-| Motor Controller   | ESP32 WROVER Module | Other                 |
-|:-------------------|:--------------------|:----------------------|
-| VM                 | -                   | External Power Source |
-| VCC                | 3.3V                |                       |
-| GND                |                     |                       |
-| STANDBY            | 3.3V                | External Switch       |
-
 | Motor Controller | ESP32 WROVER Module | Motor |
 |:-----------------|:--------------------|:------|
 | PWM A/B          | 3.3V                |       |
