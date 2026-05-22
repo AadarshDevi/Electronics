@@ -51,3 +51,11 @@ Base Connection for motor Controller
 | OUT A/B 2        | -                   | Wire  |
 
 #### PWM
+
+| Motor Controller | ESP32 WROVER Module | Motor |
+|:-----------------|:--------------------|:------|
+| PWM A/B          | Analog Pin          |       |
+| IN A/B 1         | Digital Pin         |       |
+| IN A/B 2         | Digital Pin         |       |
+| OUT A/B 1        | -                   | Wire  |
+| OUT A/B 2        | -                   | Wire  |
