@@ -8,7 +8,7 @@
 |:--------|:-----------------------------------------------------|
 | VM      | External Power Source                                |
 | VCC     | 3.3V of Board                                        |
-| GND     |                                                      |
+| GND     | Ground                                               |
 | Aout1   | Motor A Power Output 1                               |
 | Aout2   | Motor A Power Output 2                               |
 | Bout1   | Motor B Power Output 1                               |
