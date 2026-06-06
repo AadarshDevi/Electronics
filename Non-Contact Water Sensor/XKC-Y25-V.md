@@ -2,9 +2,9 @@
 
 ## Pinout
 
-| Color | Pin |
-|:--:|:--:|
-|Black||
-|Blue||
-|Yellow||
-|||
+| Wire Color |     Pin     |
+|:--------------:|:---------------:|
+|     Black      | Mode (Not Used) |
+|      Blue      |       GND       | 
+|     Yellow     |  Signal Output  | 
+|     Brown      |       VCC       |  
