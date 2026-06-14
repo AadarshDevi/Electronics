@@ -3,7 +3,9 @@
 ## Setup
 
 ### Install Driver
-Download and install [CP210x Driver](https://www.silabs.com/software-and-tools/usb-to-uart-bridge-vcp-drivers?tab=downloads) from Silicon Labs
+1. Download and install [CP210x Driver](https://www.silabs.com/software-and-tools/usb-to-uart-bridge-vcp-drivers?tab=downloads) from Silicon Labs
+2. [Win11] Plugin board and open Device Manager
+3. Ports (COM & LPT) > **Silicon Labs CP210x USB to UART Bridge** will be there
 
 ### Board Manager
 1. File > Preferences > Additional boards mamanger URLs window button
