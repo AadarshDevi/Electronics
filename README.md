@@ -18,7 +18,7 @@
 3. Pico W
 4. Pico 2 W
 
-## IC
+## Integrated Circuit
 1. ATmega328P-PU
 2. ATtiny85-20U
 
