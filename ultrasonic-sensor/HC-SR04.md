@@ -12,7 +12,7 @@
 ## Library manager
 1. Install library: **UltrasonicSensor** by **Giuseppe Martini**
 
-## Code
+## Programming
 
 1. Setup the pins: `echoPin` and `trigPin`
 ```c
