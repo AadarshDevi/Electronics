@@ -26,15 +26,22 @@ UltrasonicSensor ultrasonic(trigPin, echoPin);
 3. Get Distance in centimeter(cm)
 ```c
 int distance_in_cm = ultrasonic.distanceInCentimeters();
-Serial.println("Distance (cm): "+String(distance_in_cm));
+Serial.print("Distance (cm): ");
+Serial.println(distance_in_cm);
 ```
 4. Get Distance in millimeter (mm)
 ```c
 int distance_in_mm = ultrasonic.distanceInMillimeters();
-Serial.println("Distance (mm): "+String(distance_in_mm));
+Serial.print("Distance (mm): ");
+Serial.println(distance_in_mm);
 ```
 5. Get Distance in microseconds (us)
 ```c
 int distance_in_us = ultrasonic.distanceInMicroseconds();
-Serial.println("Distance (us): "+String(distance_in_us));
+Serial.print("Distance (us): ");
+Serial.println(distance_in_us);
 ```
+
+## Additional Info
+1. I used an ESP32-WROOM-32UE and I needed to have Serial @ baudrate=115200
+2. Link to the [UltrasonicSensor Library](https://github.com/gmarty2000-ARDUINO/arduino-ULTRASONIC_SENSOR/tree/master) that helped me to understand the library
