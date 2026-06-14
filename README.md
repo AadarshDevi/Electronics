@@ -8,8 +8,8 @@
 3. Duemilanove
 
 ### ESP32
-1. WROOM-32UE
-2. WROVER-E
+1. [WROOM-32UE](https://github.com/AadarshDevi/Electronics/blob/master/board/esp32/esp32-wroom-32ue.md)
+2. [WROVER-E](https://github.com/AadarshDevi/Electronics/blob/master/board/esp32/esp32-wrover-e.md)
 3. CAM & CAM-MB
 
 ### Raspberry Pi
