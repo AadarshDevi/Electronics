@@ -16,7 +16,8 @@
 ## Additional Info
 1. [Library on Arduino's Website](https://docs.arduino.cc/libraries/dht-sensor-library/)
 2. [GitHub Repo by Adafruit](https://github.com/adafruit/DHT-sensor-library)
-3. [Pinout for DHT11](https://components101.com/sensors/dht11-temperature-sensor)
+3. [Learn about DHT11 (Adafruit)](https://learn.adafruit.com/dht)
+4. [Pinout for DHT11](https://components101.com/sensors/dht11-temperature-sensor)
 
 ## Projects
 1. Use Temperature/Humidity Sensor to give UltrasonicSensor with better Temperature values [Temperature & Ultrasonic Sensors](https://github.com/AadarshDevi/Electronics/blob/master/project/temperature_and_ultrasonic_sensor.md)
