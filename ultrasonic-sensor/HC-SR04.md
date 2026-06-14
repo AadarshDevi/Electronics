@@ -18,6 +18,6 @@
 ```
 2. input pin: `echoPin` and output pin: `trigPin`
 ```c
-  digitalWrite(echoPin, INPUT);
-  digitalWrite(trigPin, OUTPUT);
+digitalWrite(echoPin, INPUT);
+digitalWrite(trigPin, OUTPUT);
 ```
