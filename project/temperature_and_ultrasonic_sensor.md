@@ -233,6 +233,9 @@ void loop() {
   delay(delay_in_ms);
 }
 ```
+Output Serial Plotter Graph
+
+<img width="2560" height="1600" alt="image" src="https://github.com/user-attachments/assets/3a99948e-6391-46f9-84cb-6477da715213" />
 
 ## Sources / Resources
 1. [Arduino - Serial Plotter](https://arduinogetstarted.com/tutorials/arduino-serial-plotter)
