@@ -22,7 +22,7 @@
 
 ## Upload Code
 1. Choose program to upload
-2. click upload button
+2. Click upload button
 3. When `Connecting..........` appears, press & hold the boot button
 4. Once `Hard resetting via RTS pin...` is in the terminal, press the EN button
 
