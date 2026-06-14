@@ -3,8 +3,7 @@
 ## Components
 1. ESP32-WROOM-32UE
 2. Jumper Wires
-3. 10kΩ Resistor
-4. DHT11 Temperature & Humidity Sensor
+3. DHT11 Temperature & Humidity Sensor
 
 ## Connection
 
