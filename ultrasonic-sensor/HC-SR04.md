@@ -10,7 +10,7 @@
 |    VCC     |         5V           |     Red    |
 
 ## Library manager
-1. Install library: UltrasonicSensor by Giuseppe Martini
+1. Install library: **UltrasonicSensor** by **Giuseppe Martini**
 
 ## Code
 
