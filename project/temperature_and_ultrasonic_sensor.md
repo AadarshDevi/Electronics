@@ -20,7 +20,7 @@ Use **Temperature sensor** to get the current temperature and give it to the **U
 
 | DHT11 Pin |       ESP32 Pin      | Wire Color |
 |:---------:|:--------------------:|:----------:|
-|    GND    |         GND          |   Black    |
-|    ECHO   |     Digital Pin 16   |   Orange   | // find what the pins are supposed to do
-|    VCC    |         5V           |     Red    |
+|    GND    |         GND          |    Black   |
+|    Data   |     Digital Pin 21   |    Green   |
+|    VCC    |         5V           |    Red     |
 
