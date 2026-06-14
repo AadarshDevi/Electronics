@@ -6,7 +6,7 @@
 Download and install [CP210x Driver](https://www.silabs.com/software-and-tools/usb-to-uart-bridge-vcp-drivers?tab=downloads) from Silicon Labs
 
 ### Board Manager
-1. File > Oreferences > Additional boards mamanger URLs window button
+1. File > Preferences > Additional boards mamanger URLs window button
 2. Add json link
 ```json
    https://espressif.github.io/arduino-esp32/package_esp32_index.json
