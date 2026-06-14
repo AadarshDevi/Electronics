@@ -1,4 +1,4 @@
-# Component Name
+# Item Name
 
 ## Connection(s)
 Wiring: Connection of ICs & Sensors to the Microcontroller
