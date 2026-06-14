@@ -22,7 +22,11 @@ _**[ NOTE ]**_    Incomplete Totorial
 | AOUT       | VP        | Yellow     |
 
 ## Programming
-Code written for the project
+1. Write code to upload
+2. Get avg vals for air
+3. Get avg vals for water (not fresh)
+4. u have a threashold
+5. more water = lower val
 
 ## Additional Info
 aka Notes
