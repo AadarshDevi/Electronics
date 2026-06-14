@@ -29,4 +29,4 @@
 ## Additional Info
 
 ### Small Defective
-When binking the onboard programmable led, HIGH turns the led off and LOW turns it on. this is because the led is connected to 3V3 (I believe) and not GND.
+When binking the onboard programmable led, HIGH turns the led off and LOW turns it on. This is because the led is connected to 3V3 (I believe) and not GND.
