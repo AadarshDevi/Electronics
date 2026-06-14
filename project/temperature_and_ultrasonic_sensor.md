@@ -79,4 +79,4 @@ void loop() {
 ```
 
 ### Medium
-Take the temperature and check if it hasnt changed or is in the acceptable range. If it is in acceptable range, do not set values.
+Take the temperature and check if temperature or distance hasnt changed or is in the acceptable range. If it is in acceptable range, do not set new values.
