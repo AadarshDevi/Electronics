@@ -156,3 +156,85 @@ void loop() {
   delay(delay_in_ms);
 }
 ```
+
+### Serial Monitor
+```c
+#include <DHT.h>
+#include <DHT_U.h>
+#include <UltrasonicSensor.h>
+
+// pins & types
+#define hcsr04EchoPin 16 // echo pin: input
+#define hcsr04TrigPin 17 // trigger pin: output
+
+#define dht11Pin 18 // dht pin
+#define dhtType DHT11 // dht type
+
+// objects
+UltrasonicSensor ultrasonic(hcsr04TrigPin, hcsr04EchoPin);
+DHT_Unified dht(dht11Pin, dhtType);
+
+// vars
+int delay_in_ms;
+int temperature = 22; // Celsius
+
+// time vars
+float time_s = 0.0f;
+
+// temp vars
+int temperatureDelta = 0.5; // Δ5°C
+float oldTempValue = 0.0f;
+float currentTempValue = 0.1f;
+
+// distance vars
+int distanceInCMDelta = 5;  // Δ5cm
+int oldDistanceInCM = 0.0;
+int currentDistanceInCM = 0.0;
+
+void setup() {
+
+  Serial.begin(115200);
+  while(!Serial) {}
+
+  dht.begin();
+  
+  // get sensor info  
+  sensor_t tempSensor;
+  dht.temperature().getSensor(&tempSensor); // get temperature sensor;
+
+  delay_in_ms = tempSensor.min_delay / 1000; // 1 Hz Read
+}
+
+void loop() {
+
+  sensors_event_t tempEvent;
+  dht.temperature().getEvent(&tempEvent);
+
+  // read temp sensor
+  currentTempValue = tempEvent.temperature;
+      Serial.print(currentTempValue);
+  if (!isnan(tempEvent.temperature)) {
+    if ((currentTempValue > oldTempValue + temperatureDelta || currentTempValue < oldTempValue - temperatureDelta)) {
+      oldTempValue = currentTempValue;
+      ultrasonic.setTemperature(temperature);
+    }
+  } else {
+    Serial.println("Unable to read Sensor: Temperature");
+  }
+
+  currentDistanceInCM = ultrasonic.distanceInCentimeters();
+  Serial.print(",");
+  Serial.println(currentDistanceInCM);
+  if ((currentDistanceInCM > oldDistanceInCM + distanceInCMDelta || currentDistanceInCM < oldDistanceInCM - distanceInCMDelta)) {
+    
+    oldDistanceInCM = currentDistanceInCM;
+  }
+
+  delay(delay_in_ms);
+}
+```
+
+## Sources / Resources
+1. [Arduino - Serial Plotter](https://arduinogetstarted.com/tutorials/arduino-serial-plotter)
+2. [Using the Serial Plotter Tool](https://docs.arduino.cc/software/ide-v2/tutorials/ide-v2-serial-plotter/)
+
