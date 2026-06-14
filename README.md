@@ -1,6 +1,6 @@
 # Table of Contents
 
-## Boards
+## Board
 
 ### Arduino
 1. Uno Rev3
@@ -18,7 +18,11 @@
 3. Pico W
 4. Pico 2 W
 
-## Sensors
+## IC
+1. ATmega328P-PU
+2. ATtiny85-20U
+
+## Sensor
 1. [Sparkfun TB6612FNG Motor Controller](https://github.com/AadarshDevi/Electronics/blob/master/motor-controller/sparkfun-tb6612fng-motor-driver.md)
 2. [HC-SR04 Ultrasonic Sensor](https://github.com/AadarshDevi/Electronics/blob/master/motor-controller/sparkfun-tb6612fng-motor-driver.md)
 3. [DHT11 Temperature and Humidity Sensor](https://github.com/AadarshDevi/Electronics/blob/master/humidity-temperature-sensor/DHT11.md)
