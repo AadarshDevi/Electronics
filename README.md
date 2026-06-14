@@ -19,9 +19,10 @@
 4. Pico 2 W
 
 ## Sensors
-1. Sparkfun __ Motor Controller
-2. HC-SR04 Ultrasonic Sensor
-3. DHT11 Temperature and Humidity Sensor
+1. [Sparkfun TB6612FNG Motor Controller](https://github.com/AadarshDevi/Electronics/blob/master/motor-controller/sparkfun-tb6612fng-motor-driver.md)
+2. [HC-SR04 Ultrasonic Sensor](https://github.com/AadarshDevi/Electronics/blob/master/motor-controller/sparkfun-tb6612fng-motor-driver.md)
+3. [DHT11 Temperature and Humidity Sensor](https://github.com/AadarshDevi/Electronics/blob/master/humidity-temperature-sensor/DHT11.md)
+4. [XKC-Y25-V Non-Contact Water Sensor](https://github.com/AadarshDevi/Electronics/blob/master/non-contact-water-sensor/XKC-Y25-V.md)
 
 ## Projects
-1. HC-SR04 & DHT11
+1. [HC-SR04 & DHT11](https://github.com/AadarshDevi/Electronics/blob/master/project/temperature_and_ultrasonic_sensor.md)
