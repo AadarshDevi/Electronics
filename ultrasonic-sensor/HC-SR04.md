@@ -11,6 +11,13 @@
 
 ## Code
 
+1. Setup the pins: `echoPin` and `trigPin`
 ```c
-
+#define echoPin 16 // input
+#define trigPin 17 // output
+```
+2. input pin: `echoPin` and output pin: `trigPin`
+```c
+  digitalWrite(echoPin, INPUT);
+  digitalWrite(trigPin, OUTPUT);
 ```
