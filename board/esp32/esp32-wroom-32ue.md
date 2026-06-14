@@ -28,6 +28,8 @@
 
 ## Additional Info
 
+1. Board does not have an onboard programmable led
+
 ### Diagnostic / Board Info
 ```
 ets Jul 29 2019 12:21:46
