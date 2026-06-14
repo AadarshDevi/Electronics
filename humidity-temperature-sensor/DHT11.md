@@ -39,7 +39,7 @@ delay_in_ms = humiditySensor.min_delay / 1000; // 1 Hz Read
 ```c
 dht.begin();
 ```
-5. Read temperature
+5. Read temperature. It is in °C
 ```c
 sensors_event_t tempEvent;
 
@@ -50,6 +50,7 @@ dht.temperature().getEvent(&tempEvent);
 if (!isnan(tempEvent.temperature)) {
 
   // read sensor
+  Serial.print("Temperature: ");
   Serial.println(tempEvent.temperature);
 } else {
 
@@ -68,6 +69,7 @@ dht.humidity().getEvent(&humidityEvent);
 if (!isnan(humidityEvent.relative_humidity)) {
 
   // read sensor
+  Serial.print("Humidity: ");
   Serial.println(humidityEvent.relative_humidity);
 } else {
 
