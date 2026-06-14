@@ -21,7 +21,7 @@
 3. When `Connecting..........` appears, press & hold the boot button
 4. Once `Hard resetting via RTS pin...` is in the terminal, press the EN button
 
-## Extra
+## Additional Info
 
 ### Diagnostic / Board Info
 ```
