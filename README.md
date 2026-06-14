@@ -27,6 +27,12 @@
 2. [HC-SR04 Ultrasonic Sensor](https://github.com/AadarshDevi/Electronics/blob/master/motor-controller/sparkfun-tb6612fng-motor-driver.md)
 3. [DHT11 Temperature and Humidity Sensor](https://github.com/AadarshDevi/Electronics/blob/master/humidity-temperature-sensor/DHT11.md)
 4. [XKC-Y25-V Non-Contact Water Sensor](https://github.com/AadarshDevi/Electronics/blob/master/non-contact-water-sensor/XKC-Y25-V.md)
+5. Capacitive Soil Moisture Sensor v2.0
+
+### Shield
+1. ATtiny Programming Shield
+2. ATmega328P Programming Shield
+3. ___ Motor Shield
 
 ## Projects
 1. [HC-SR04 & DHT11](https://github.com/AadarshDevi/Electronics/blob/master/project/temperature_and_ultrasonic_sensor.md)
