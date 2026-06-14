@@ -16,9 +16,10 @@ _**[ NOTE ]**_    Incomplete Totorial
 | AOUT       | Analog Output     |
 
 | Sensor Pin | ESP32 Pin | Wire Color |
+|:----------:|:---------:|:----------:|
 | GND        | GND       | Black      |
 | VCC        | 5V        | Red        |
-| AOUT       | Pin 25    | Orange     |
+| AOUT       | VP        | Yellow     |
 
 ## Programming
 Code written for the project
