@@ -20,7 +20,6 @@ Both tutorials below need to be completed because I do not want to repeat the sa
 ### Basic
 Taking the temperature from DHT11 and putting it into HC-SR04
 ```c
-
 #include <DHT.h>
 #include <DHT_U.h>
 #include <UltrasonicSensor.h>
@@ -63,19 +62,20 @@ void loop() {
     // read temp sensor
   if (!isnan(tempEvent.temperature)) {
     Serial.print("Temperature: ");
-    Serial.println(tempEvent.temperature); // i can read sensor
+    Serial.print(tempEvent.temperature); // i can read sensor
+    Serial.println("°C"); // i can read sensor
     ultrasonic.setTemperature(temperature);
   } else {
     Serial.println("Unable to read Sensor: Temperature");
   }
 
   int distance_in_cm = ultrasonic.distanceInCentimeters();
-  Serial.print("Distance (cm): ");
-  Serial.println(distance_in_cm);
+  Serial.print("Distance: ");
+  Serial.print(distance_in_cm);
+  Serial.println("cm");
 
   delay(delay_in_ms);
 }
-
 ```
 
 ### Medium
