@@ -9,7 +9,8 @@
 
 ### ESP32
 1. WROOM-32UE
-2. CAM & CAM-MB
+2. WROVER-E
+3. CAM & CAM-MB
 
 ### Raspberry Pi
 1. Pi 2
