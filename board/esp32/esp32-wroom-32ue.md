@@ -46,4 +46,4 @@ entry 0x400805b4
 ```
 The ESP32 will send out diagnostic/board information like above. In order to not get this information on the Serial Monitor/Communication, GPIO15 (15, IO15) has to be connected to GND.
 
-WARNING: When GPIO15 is connected to GND, code cannot be uploaded.
+[ WARNING ] When GPIO15 is connected to GND, code cannot be uploaded.
