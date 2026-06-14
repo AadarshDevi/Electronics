@@ -8,21 +8,10 @@ Use **Temperature sensor** to get the current temperature and give it to the **U
 2. HC-SR04 Ultrasonic Sensor
 3. DHT11 Digital Temperature & Humidity Sensor
 
-## Connections
-
-| HC-SR04 Pin |       ESP32 Pin      | Wire Color |
-|:-----------:|:--------------------:|:----------:|
-|     GND     |         GND          |   Black    |
-|     ECHO    |     Digital Pin 16   |   Orange   |
-|     TRIG    |     Digital Pin 17   |   Yellow   |
-|     VCC     |         5V           |     Red    |
-
-
-| DHT11 Pin |       ESP32 Pin      | Wire Color |
-|:---------:|:--------------------:|:----------:|
-|    GND    |         GND          |    Black   |
-|    Data   |     Digital Pin 21   |    Green   |
-|    VCC    |         5V           |    Red     |
+## Setup
+Both tutorials below need to be completed because I do not want to repeat the same things.
+1. [DHT11 Sensor Tutorial](https://github.com/AadarshDevi/Electronics/blob/master/humidity-temperature-sensor/DHT11.md#programming)
+2. [HC-SR04 Sensor Tutorial](https://github.com/AadarshDevi/Electronics/blob/master/ultrasonic-sensor/HC-SR04.md#programming)
 
 ## Libraries
 1. **UltrasonicSensor** by **Giuseppe Martini**
