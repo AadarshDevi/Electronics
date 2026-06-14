@@ -24,3 +24,8 @@ Use **Temperature sensor** to get the current temperature and give it to the **U
 |    Data   |     Digital Pin 21   |    Green   |
 |    VCC    |         5V           |    Red     |
 
+## Libraries
+1. **UltrasonicSensor** by **Giuseppe Martini**
+2. **DHT sensor library** by **Adafruit** (Install with dependencies)
+
+## Programming
