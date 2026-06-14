@@ -1,8 +1,8 @@
 # ESP32-WROOM-32UE
 
-# Setup (Arduino IDE)
+## Setup (Arduino IDE)
 
-## Board Manager
+### Board Manager
 1. File > Oreferences > Additional boards mamanger URLs window button
 2. Add json link
 ```json
@@ -11,11 +11,11 @@
 3. Close & reopen Arduino IDE
 4. Install: esp32 by Espressif Systems
 
-## Tools
+### Tools
 1. Tools > Board > esp32 > ESP32-WROOM-DA Module
 2. Tools > Flash Mode > DIO
 
-# Upload Code
+## Upload Code
 1. Choose program to upload
 2. click upload button
 3. When `Connecting..........` appears, press & hold the boot button
