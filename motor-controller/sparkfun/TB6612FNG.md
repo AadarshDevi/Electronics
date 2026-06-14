@@ -1,6 +1,4 @@
-# Motor Controller
-
-## Sparkfun TB6612FNG Motor Driver
+# Sparkfun TB6612FNG Motor Driver
 
 ### Pinout
 
