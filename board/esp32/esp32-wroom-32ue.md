@@ -1,6 +1,9 @@
 # ESP32-WROOM-32UE
 
-## Setup (Arduino IDE)
+## Setup
+
+### Install Driver
+Install [CP210x Driver](https://www.silabs.com/software-and-tools/usb-to-uart-bridge-vcp-drivers?tab=downloads) from Silicon Labs
 
 ### Board Manager
 1. File > Oreferences > Additional boards mamanger URLs window button
