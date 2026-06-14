@@ -30,6 +30,6 @@ Use **Temperature sensor** to get the current temperature and give it to the **U
 
 ## Programming
 1. Check [DHT11 Sensor Tutorial]()
-2. Check [HC-SR04 Sensor Tutorial](https://github.com/AadarshDevi/Electronics/blob/master/ultrasonic-sensor/HC-SR04.md)
+2. Check [HC-SR04 Sensor Tutorial](https://github.com/AadarshDevi/Electronics/blob/master/ultrasonic-sensor/HC-SR04.md#programming)
 
 One we have the code from the above 2 tutorials, we will combine them.
