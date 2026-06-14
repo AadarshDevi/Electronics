@@ -30,5 +30,4 @@ aka Notes
 list of projects that use the sensor/ic
 
 ## Sources / Resources
-1. [How To Use A Capacitive Soil Moisture Sensor With Arduino](https://www.makerguides.com/capacitive-soil-moisture-sensor-with-arduino/)
-2. [ESP32 - Soil Moisture Sensor](https://esp32io.com/tutorials/esp32-soil-moisture-sensor)
+1. [ESP32 - Soil Moisture Sensor](https://esp32io.com/tutorials/esp32-soil-moisture-sensor)
