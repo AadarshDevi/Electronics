@@ -1,5 +1,8 @@
 # Item Name
 
+## Components
+Sensors, microcontrollers, etc needed in order to work on the tutorial without problems
+
 ## Connection(s)
 Wiring: Connection of ICs & Sensors to the Microcontroller
 
