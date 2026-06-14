@@ -38,7 +38,16 @@ DHT_Unified dht(dht11Pin, dhtType);
 // vars
 int delay_in_ms;
 int temperature = 22; // Celsius
-  
+
+// delta
+int temperatureDelta = 0.5; // Δ5°C
+float oldTempValue = 0.0f;
+float currentTempValue = 0.1f;
+
+int distanceInCMDelta = 5;  // Δ5cm
+int oldDistanceInCM = 0.0;
+int currentDistanceInCM = 0.0;
+
 
 void setup() {
 
@@ -61,18 +70,25 @@ void loop() {
 
     // read temp sensor
   if (!isnan(tempEvent.temperature)) {
-    Serial.print("Temperature: ");
-    Serial.print(tempEvent.temperature); // i can read sensor
-    Serial.println("°C"); // i can read sensor
-    ultrasonic.setTemperature(temperature);
+    if ((currentTempValue > oldTempValue + temperatureDelta || currentTempValue < oldTempValue - temperatureDelta)) {
+      Serial.print("Temperature: ");
+      oldTempValue = currentTempValue;
+      currentTempValue = tempEvent.temperature;
+      Serial.print(currentTempValue); // i can read sensor
+      Serial.println("°C"); // i can read sensor
+      ultrasonic.setTemperature(temperature);
+    }
   } else {
     Serial.println("Unable to read Sensor: Temperature");
   }
 
-  int distance_in_cm = ultrasonic.distanceInCentimeters();
-  Serial.print("Distance: ");
-  Serial.print(distance_in_cm);
-  Serial.println("cm");
+  currentDistanceInCM = ultrasonic.distanceInCentimeters();
+  if ((currentDistanceInCM > oldDistanceInCM + distanceInCMDelta || currentDistanceInCM < oldDistanceInCM - distanceInCMDelta)) {
+    Serial.print("Distance: ");
+    oldDistanceInCM = currentDistanceInCM;
+    Serial.print(currentDistanceInCM);
+    Serial.println("cm");
+  }
 
   delay(delay_in_ms);
 }
