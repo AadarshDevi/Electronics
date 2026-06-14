@@ -1,5 +1,7 @@
 # Capactitve Soil Mosture Sensor v2.0
 
+[ NOTE ]    Incomplete Totorial
+
 ## Components
 1. ESP32
 2. Capactitve Soil Mosture Sensor v2.0
