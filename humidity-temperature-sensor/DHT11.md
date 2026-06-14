@@ -10,7 +10,7 @@
 | DHT11 Pin |       ESP32 Pin      | Wire Color |
 |:---------:|:--------------------:|:----------:|
 |    GND    |         GND          |    Black   |
-|    Data   |     Digital Pin 21   |    Green   |
+|    Data   |     Digital Pin 18   |    Green   |
 |    VCC    |         5V           |    Red     |
 
 ## Library Manager
