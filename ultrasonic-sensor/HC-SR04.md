@@ -45,3 +45,6 @@ Serial.println(distance_in_us);
 ## Additional Info
 1. I used an ESP32-WROOM-32UE and I needed to have Serial @ baudrate=115200 (ESP32 uses 115200 for sending diagnostic info to serial monitor)
 2. Link to the [UltrasonicSensor Library](https://github.com/gmarty2000-ARDUINO/arduino-ULTRASONIC_SENSOR/tree/master) that helped me to understand the library
+
+## Projects
+1. Use Temperature/Humidity Sensor to give UltrasonicSensor with better Temperature values [Temperature & Ultrasonic Sensors]()
