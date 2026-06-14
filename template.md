@@ -13,7 +13,10 @@ Any libs that need to be installed
 Code written for the project
 
 ## Additional Info
-list of external resources/helpful websites
+aka Notes
 
 ## Projects
 list of projects that use the sensor/ic
+
+## Sources / Resources
+list of external resources/helpful websites
