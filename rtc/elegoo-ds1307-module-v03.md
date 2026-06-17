@@ -10,7 +10,7 @@
 |:-------:|:--------:|:-------:|
 | SDA | GPIO 21 (I2C SDA) | Orange |
 | SCL | GPIO 22 (I2C SCL) | Yellow |
-| VCC | 5V | Green |
+| VCC | 3V3 | Green |
 | GND | GND | White |
 
 ## Library Manager
