@@ -1,7 +1,5 @@
 # Elegoo DS1307 Module V03
 
-_**[ NOTE ]**_    Incomplete Totorial
-
 ## Components
 1. Elegoo DS1307 Module V03
 2. ESP32-WROOM-32UE
@@ -12,39 +10,45 @@ _**[ NOTE ]**_    Incomplete Totorial
 |:-------:|:--------:|:-------:|
 | SDA | GPIO 21 (I2C SDA) | Orange |
 | SCL | GPIO 22 (I2C SCL) | Yellow |
-| VCC | 3V3 | Green |
+| VCC | 5V | Green |
 | GND | GND | White |
 
 ## Library Manager
 1. RTClib by Adafruit (Install _**with**_ dependencies)
 
 ## Programming
-1. 
+1. Create obj
 ```c
+#include <RTClib.h>
+RTC_DS1307 rtc;
 ```
 
-2. 
+2. Initiate obj
 ```c
+if (! rtc.begin()) {
+  Serial.println("RTC module is NOT found");
+  while (1);
+}
 ```
 
-3. 
+3. Set date and time
 ```c
+rtc.adjust(DateTime(F(__DATE__), F(__TIME__)));
 ```
 
-4. 
+4. get date & time
 ```c
+DateTime now = rtc.now();
 ```
 
-5. 
+5. get info from DS1307
 ```c
-```
-
-6. 
-```c
-```
-
-7. 
-```c
+Serial.println(now.month());
+Serial.println(now.day());
+Serial.println(now.year());
+Serial.println(now.hour());
+Serial.println(now.minute());
+Serial.println(now.second());
 ```
 
 ## Sources / Resources
