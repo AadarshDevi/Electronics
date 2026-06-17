@@ -51,6 +51,9 @@ Serial.println(now.minute());
 Serial.println(now.second());
 ```
 
+## Projects
+1. [DS1307 RTC Module & I2C LCD 16x2](https://github.com/AadarshDevi/Electronics/tree/master/project)
+
 ## Sources / Resources
 1. [ESP32: Guide for DS1307 RTC](https://randomnerdtutorials.com/esp32-ds1307-real-time-clock-rtc-arduino/)
 2. [ESP32 - DS1307 RTC Module](https://esp32io.com/tutorials/esp32-ds1307-rtc-module)
