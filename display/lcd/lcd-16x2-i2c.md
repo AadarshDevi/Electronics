@@ -11,20 +11,41 @@
 |:-------:|:--------:|:-------:|
 | SDA | GPIO 21 (I2C SDA) | Orange |
 | SCL | GPIO 22 (I2C SCL) | Yellow |
-| VCC | 5V | Red |
-| GND | GND | Black |
+| VCC | 5V | Green |
+| GND | GND | White |
 
 ## Library Manager
-Any libs that need to be installed
+1. LiquidCrystal_I2C by Martin Kubovcik, Frank de Brabander
 
 ## Programming
-Code written for the project
+1. Import library
+```c
+#include <LiquidCrystal_I2C.h>
+```
 
-## Additional Info
-aka Notes
+2. Create LCD object
+```c
+LiquidCrystal_I2C lcd(0x27, 20, 4);
+```
+
+3. initialize lcd
+```c
+lcd.init(); // create obj
+lcd.backlight(); // turn backlight on
+```
+
+4. Set cursor
+```c
+lcd.setCursor(0, 0); // col, row
+```
+
+5. Print "Hello LCD World!"
+```c
+lcd.print("Hello LCD World!");
+```
 
 ## Projects
 list of projects that use the sensor/ic
 
 ## Sources / Resources
-list of external resources/helpful websites
+1. [LiquidCrystal I2C Library](https://github.com/markub3327/LiquidCrystal_I2C/tree/master)
