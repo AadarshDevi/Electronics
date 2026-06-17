@@ -1,5 +1,7 @@
 # Elegoo DS1307 Module V03
 
+_**[ NOTE ]**_    Incomplete Totorial
+
 ## Components
 1. Elegoo DS1307 Module V03
 2. ESP32-WROOM-32UE
