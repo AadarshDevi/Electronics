@@ -27,7 +27,7 @@
 2. RTClib by Adafruit (Install _**with**_ dependencies)
 
 ## Programming
-Code written for the project
+1. Create Objects
 
 ## Sources / Resources
 1. [LiquidCrystal I2C Library](https://github.com/markub3327/LiquidCrystal_I2C/tree/master)
