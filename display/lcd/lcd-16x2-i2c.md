@@ -44,8 +44,5 @@ lcd.setCursor(0, 0); // col, row
 lcd.print("Hello LCD World!");
 ```
 
-## Projects
-list of projects that use the sensor/ic
-
 ## Sources / Resources
 1. [LiquidCrystal I2C Library](https://github.com/markub3327/LiquidCrystal_I2C/tree/master)
