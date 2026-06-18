@@ -1,4 +1,4 @@
-# I2C LCD 16x2
+# I2C LCD 20x4
 
 ## Components
 1. I2C LCD 16x2
