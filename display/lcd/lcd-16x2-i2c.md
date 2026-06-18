@@ -46,7 +46,7 @@ lcd.print("Hello LCD World!");
 ```
 
 ## Projects
-1. [DS1307 RTC Module & I2C LCD 16x2](https://github.com/AadarshDevi/Electronics/tree/master/project)
+1. [I2C LCD 16x2 and HW504 Joystick Module](https://github.com/AadarshDevi/Electronics/blob/master/project/i2c-lcd-16x2-hw504.md)
 
 ## Sources / Resources
-1. [LiquidCrystal I2C Library](https://github.com/markub3327/LiquidCrystal_I2C/tree/master)
+1. Nasa Internship
