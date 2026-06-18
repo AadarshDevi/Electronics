@@ -37,9 +37,5 @@
 ## Projects
 1. [HC-SR04 & DHT11](https://github.com/AadarshDevi/Electronics/blob/master/project/temperature_and_ultrasonic_sensor.md)
 
-## Todo
-1. Project (16x2 LCD & HW504)
-2. LCD > I2C 16x2
-3. Joystick > HW504
-4. Capacitative Soil Moisture Sensor v2.0
-5. ...
+# Todo
+1. Capacitative Soil Moisture Sensor v2.0
