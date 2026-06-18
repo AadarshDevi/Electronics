@@ -27,7 +27,7 @@
 ```c
 LiquidCrystal_I2C lcd(0x27, 16, 2);
 ```
-The LCD has 20 cols and 4 rows. **_The address for the I2C LCD is 0x27._**
+The LCD has 16 cols and 2 rows. **_The address for the I2C LCD is 0x27._**
 
 3. initialize lcd
 ```c
