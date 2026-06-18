@@ -1,7 +1,7 @@
 # I2C LCD 20x4
 
 ## Components
-1. I2C LCD 16x2
+1. I2C LCD 20x4
 2. ESP32-WROOM-32UE
 3. Jumper Wires
 
