@@ -25,7 +25,7 @@
 
 2. Create LCD object
 ```c
-LiquidCrystal_I2C lcd(0x27, 20, 4);
+LiquidCrystal_I2C lcd(0x27, 16, 2);
 ```
 The LCD has 20 cols and 4 rows. **_The address for the I2C LCD is 0x27._**
 
