@@ -2,3 +2,40 @@
 
 ## Aim
 Display the joystick values on an LCD.
+
+## Components
+1. ESP32-WROVER-E
+2. I2C LCD 16X2
+3. HW504 Joystick Module
+4. Jumper Cables
+5. Breadboard
+
+## Connection(s)
+| I2C LCD | ESP32 | Wire Color |
+|:-------:|:--------:|:-------:|
+| SDA | GPIO 21 (I2C SDA) | Orange |
+| SCL | GPIO 22 (I2C SCL) | Yellow |
+| VCC | 5V | Green |
+| GND | GND | White |
+
+| HW504 | ESP32 | Wire Color |
+|:-------:|:--------:|:-------:|
+| VRx (X Axis) | GPIO 14 | Orange |
+| VRy (Y Axis) | GPIO 12 | Yellow |
+| VCC | 3V3 | Green |
+| GND | GND | White |
+
+## Library Manager
+1. LiquidCrystal_I2C by Martin Kubovcik, Frank de Brabander
+
+## Programming
+Code written for the project
+
+## Additional Info
+aka Notes
+
+## Projects
+list of projects that use the sensor/ic
+
+## Sources / Resources
+list of external resources/helpful websites
