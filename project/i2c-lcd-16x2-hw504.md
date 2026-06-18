@@ -29,4 +29,46 @@ Display the joystick values on an LCD.
 1. LiquidCrystal_I2C by Martin Kubovcik, Frank de Brabander
 
 ## Programming
-Code written for the project
+1. Create LCD object
+```c
+LiquidCrystal_I2C lcd(0x27, 16, 2);
+```
+
+2. Vars for joystick pins and vals
+```c
+const int xAxisPin = 14;
+const int yAxisPin = 12;
+
+int xVal = 0;
+int yVal = 0;
+```
+
+3. setup: lcd
+```c
+lcd.init();
+lcd.backlight();
+lcd.setCursor(0, 0);
+lcd.print("x = ");
+lcd.setCursor(0, 1);
+lcd.print("y = ");
+```
+
+4. read vals from joystick
+```c
+xVal = analogRead(xAxisPin);
+yVal = analogRead(yAxisPin);
+```
+
+5. print vals on lcd
+```c
+lcd.setCursor(4, 0);
+lcd.printf("%4d", xVal);
+lcd.setCursor(4, 1);
+lcd.printf("%4d", yVal);
+```
+
+6. add delay
+```c
+delay(250);
+```
+
