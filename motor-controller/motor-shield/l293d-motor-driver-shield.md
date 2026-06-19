@@ -27,3 +27,7 @@
 
 ### 2 Servo Motors
 
+## Sources
+1. [Control DC, Servo & Stepper Motors with L293D Shield & Arduino](https://playwithcircuit.com/l293d-motor-driver-shield-arduino-tutorial/)
+2. [AF-Motor-Shield-R4-Compatible GitHub Repo](https://github.com/PhoenixSmaug/AFMotor-Shield-R4-Compatible/tree/main/examples)
+3. [L293D Motor Driver Shield with Arduino](https://projecthub.arduino.cc/jrachana/l293d-motor-driver-shield-with-arduino-fe6bcb#section4)
