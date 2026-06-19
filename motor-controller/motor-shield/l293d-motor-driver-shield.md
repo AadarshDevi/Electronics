@@ -1,3 +1,6 @@
+
+Defective Shield: Shield's Green LED on when it was supposed to be off. 
+
 # L293D Motor Driver Shield
 
 1. Arduino Uno Tutorial
