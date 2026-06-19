@@ -9,11 +9,23 @@
 2. Arduino + 2 Stepper Motors
 3. Arduino + 2 Servo Motors
 
-### 4 Motors
+### Basic Connection
 
-### 2 Stepper Motors
+1. Motor Shield on Arduino Uno.
+2. _**PWR**_ pins disconnected
+3. External Power Supply (4 * 1.2V) connected to Shield's +M (VCC) and GND
 
-### 2 Servo Motors
+Power Supply
+1. Arduino: Laptop USB
+2. Motor Shield: External Power Supply
+
+### Motors
+
+
+
+### Stepper Motors
+
+### Servo Motors
 
 ## ESP32-WROOM-32UE
 
