@@ -74,7 +74,7 @@ pinMode(PWMA, OUTPUT);
 int maxMotorVal = 255;
 ```
 
-4. map input vlue to output speed
+4. map input value to output speed then set speed
 ```c
 analogWrite(PWMA, motorVal);
 ```
