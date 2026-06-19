@@ -32,7 +32,7 @@
 ### Shield
 1. ATtiny Programming Shield
 2. ATmega328P Programming Shield
-3. ___ Motor Shield
+3. L293D Motor Driver Shield
 
 ## Projects
 1. [HC-SR04 & DHT11](https://github.com/AadarshDevi/Electronics/blob/master/project/temperature_and_ultrasonic_sensor.md)
