@@ -71,9 +71,9 @@ const int maxMotorVal = 255;  // max speed
 
 3. Set the pins to output
 ```c
-pinMode(AIN1, OUTPUT);      // ouput because motor's rotation pin
-pinMode(AIN2, OUTPUT);      // ouput because motor's rotation pin
-pinMode(PWMA, OUTPUT);      // ouput because motor's pwm pin
+pinMode(AIN1, OUTPUT);        // ouput because motor's rotation pin
+pinMode(AIN2, OUTPUT);        // ouput because motor's rotation pin
+pinMode(PWMA, OUTPUT);        // ouput because motor's pwm pin
 ```
 
 4. max motor speed
