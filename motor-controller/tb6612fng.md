@@ -87,16 +87,16 @@ digitalWrite(AIN1, HIGH);
 digitalWrite(AIN2, LOW);
 
 // stopping motor
-digitalWrite(AIN1, HIGH);
+digitalWrite(AIN1, LOW);
 digitalWrite(AIN2, LOW);
 
 // rotate opposite direction
-digitalWrite(AIN1, HIGH);
-digitalWrite(AIN2, LOW);
+digitalWrite(AIN1, LOW);
+digitalWrite(AIN2, HIGH);
 
 // motor destroyed
 digitalWrite(AIN1, HIGH);
-digitalWrite(AIN2, LOW);
+digitalWrite(AIN2, HIGH);
 ```
 
 6. Set motor speed
