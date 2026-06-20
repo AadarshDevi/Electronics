@@ -51,7 +51,9 @@ Base Connection for motor Controller
 | OUT A/B 1        | - | -                   | Wire  |
 | OUT A/B 2        | - | -                   | Wire  |
 
-##### Programming
+### Programming
+
+#### PWM
 
 1. PWM Motor A Pins
 ```c
