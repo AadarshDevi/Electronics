@@ -93,6 +93,6 @@ digitalWrite(AIN2, LOW);
 ```
 
 5. set motor speed
-```
+```c
 analogWrite(PWMA, motorVal);
 ```
