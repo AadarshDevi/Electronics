@@ -55,20 +55,25 @@ Base Connection for motor Controller
 
 #### PWM
 
-1. PWM Motor A Pins
+1. Motor A Pins
 ```c
-const int AIN1 = 21;    //directional pin
-const int AIN2 = 22;    //directional pin
-const int PWMA = 23; //pwm (speed) pin 
-// Setting duty cycle: 255 (2^8-1) is 100% speed
-int dutyA = 100;  // ~40% of max speed
+// Motor A pins  
+const int AIN1 = 21;          // motor pin 1 (Used for direction)
+const int AIN2 = 22;          // motor pin 2 (Used for direction)
+const int PWMA = 23;          // motor PWM pin
+```
+
+2. Motor vals
+```c
+int motorVal = 100;           // motor speed aka duty cycle
+const int maxMotorVal = 255;  // max speed
 ```
 
 2. Set the pins to output
 ```c
-pinMode(AIN1, OUTPUT);
-pinMode(AIN2, OUTPUT);
-pinMode(PWMA, OUTPUT);
+pinMode(AIN1, OUTPUT); // ouput because motor's rotation pin
+pinMode(AIN2, OUTPUT); // ouput because motor's rotation pin
+pinMode(PWMA, OUTPUT); // ouput because motor's pwm pin
 ```
 
 3. max motor speed
@@ -77,8 +82,17 @@ int motorVal = 255;
 ```
 
 4. map input value to output speed then set speed
-```c
+```c  
+// rotate a direction
 digitalWrite(AIN1, HIGH);
 digitalWrite(AIN2, LOW);
+
+// rotate opposite direction
+digitalWrite(AIN1, HIGH);
+digitalWrite(AIN2, LOW);
+```
+
+5. set motor speed
+```
 analogWrite(PWMA, motorVal);
 ```
