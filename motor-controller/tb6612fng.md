@@ -63,7 +63,7 @@ const int AIN2 = 22;          // motor pin 2 (Used for direction)
 const int PWMA = 23;          // motor PWM pin
 ```
 
-2. Motor vals
+2. Max motor val
 ```c
 const int maxMotorVal = 255;  // max speed
 ```
@@ -75,12 +75,12 @@ pinMode(AIN2, OUTPUT);        // ouput because motor's rotation pin
 pinMode(PWMA, OUTPUT);        // ouput because motor's pwm pin
 ```
 
-4. max motor speed
+4. Set motor speed
 ```c
 int motorVal = 100;           // motor speed aka duty cycle
 ```
 
-5. map input value to output speed then set speed
+5. Map input value to output speed then set speed
 ```c  
 // rotate a direction
 digitalWrite(AIN1, HIGH);
@@ -95,7 +95,7 @@ digitalWrite(AIN1, HIGH);
 digitalWrite(AIN2, LOW);
 ```
 
-6. set motor speed
+6. Set motor speed
 ```c
 analogWrite(PWMA, motorVal);
 ```
