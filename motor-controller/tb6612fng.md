@@ -73,7 +73,7 @@ pinMode(PWMA, OUTPUT);
 
 3. max motor speed
 ```c
-int maxMotorVal = 255;
+int motorVal = 255;
 ```
 
 4. map input value to output speed then set speed
