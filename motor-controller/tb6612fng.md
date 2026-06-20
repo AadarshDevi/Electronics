@@ -93,6 +93,10 @@ digitalWrite(AIN2, LOW);
 // rotate opposite direction
 digitalWrite(AIN1, HIGH);
 digitalWrite(AIN2, LOW);
+
+// motor destroyed
+digitalWrite(AIN1, HIGH);
+digitalWrite(AIN2, LOW);
 ```
 
 6. Set motor speed
