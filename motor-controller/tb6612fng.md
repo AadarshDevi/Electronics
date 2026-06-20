@@ -87,6 +87,10 @@ int motorVal = 255;
 digitalWrite(AIN1, HIGH);
 digitalWrite(AIN2, LOW);
 
+// stopping motor
+digitalWrite(AIN1, HIGH);
+digitalWrite(AIN2, LOW);
+
 // rotate opposite direction
 digitalWrite(AIN1, HIGH);
 digitalWrite(AIN2, LOW);
