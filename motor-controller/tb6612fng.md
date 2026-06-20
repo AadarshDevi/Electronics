@@ -65,7 +65,6 @@ const int PWMA = 23;          // motor PWM pin
 
 2. Motor vals
 ```c
-int motorVal = 100;           // motor speed aka duty cycle
 const int maxMotorVal = 255;  // max speed
 ```
 
@@ -78,7 +77,7 @@ pinMode(PWMA, OUTPUT);        // ouput because motor's pwm pin
 
 4. max motor speed
 ```c
-int motorVal = 255;
+int motorVal = 100;           // motor speed aka duty cycle
 ```
 
 5. map input value to output speed then set speed
