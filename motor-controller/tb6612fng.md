@@ -78,5 +78,7 @@ int maxMotorVal = 255;
 
 4. map input value to output speed then set speed
 ```c
+digitalWrite(AIN1, HIGH);
+digitalWrite(AIN2, LOW);
 analogWrite(PWMA, motorVal);
 ```
