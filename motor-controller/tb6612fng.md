@@ -35,7 +35,7 @@ Base Connection for motor Controller
 
 | Motor Controller | ESP32-WROOM-32UE | ESP32 WROVER Module | Motor |
 |:-----------------|:------|--------------|:------|
-| PWM A/B          | 3.3v | 3.3V                |       |
+| PWM A/B          | 3v3 | 3.3V                |       |
 | IN A/B 1         | GPIO32 | Digital Pin         |       |
 | IN A/B 2         | GPIO33 | Digital Pin         |       |
 | OUT A/B 1        | - | -                   | Wire  |
