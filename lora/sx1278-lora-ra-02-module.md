@@ -30,4 +30,4 @@ aka Notes
 list of projects that use the sensor/ic
 
 ## Sources / Resources
-list of external resources/helpful websites
+1. [Interfacing Esp32 with LoRa using Arduino IDE](https://embeddedthere.com/esp32-lora-tutorial-using-arduino-ide/)
