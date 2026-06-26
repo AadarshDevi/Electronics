@@ -28,5 +28,19 @@
 
 ## Additional Info
 
+### Pinpout
+
+| GPIO | Description | Other |
+|:-----:|:-----:|:-----:|
+| 32 | ADC1 |  |
+| 33 | ADC1 |  |
+| 34 | ADC1 |  |
+| 35 | ADC1 |  |
+| 36 | ADC1 |  |
+| 39 | ADC1 |  |
+| 21 | I2C SDA |  |
+| 22 | I2C SCL |  |
+
+
 ### Small Defective
 When binking the onboard programmable led, HIGH turns the led off and LOW turns it on. This is because the led is connected to 3V3 (I believe) and not GND.
