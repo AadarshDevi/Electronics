@@ -1,4 +1,4 @@
-# ESP32-WROVER-E
+# Freenove ESP32-WROVER-CAM
 
 ## Setup
 
