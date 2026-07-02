@@ -18,7 +18,7 @@
 ### Board Manager
 1. File > Preferences > Additional boards mamanger URLs window button
 2. Add json link
-```json
+```js
    https://espressif.github.io/arduino-esp32/package_esp32_index.json
 ```
 3. Close & reopen Arduino IDE
