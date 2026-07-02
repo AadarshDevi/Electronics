@@ -1,5 +1,9 @@
 # Freenove ESP32-WROVER-CAM
 
+## Pinout
+
+<img width="1284" height="855" alt="image" src="https://github.com/user-attachments/assets/79b1fa50-6972-4e9b-a1ee-8ff55a6b94f4" />
+
 ## Setup
 
 ### Install Driver
@@ -27,20 +31,6 @@
 2. Click upload button
 
 ## Additional Info
-
-### Pinpout
-
-| GPIO | Description | Other |
-|:-----:|:-----:|:-----:|
-| 32 | ADC1 |  |
-| 33 | ADC1 |  |
-| 34 | ADC1 |  |
-| 35 | ADC1 |  |
-| 36 | ADC1 |  |
-| 39 | ADC1 |  |
-| 21 | I2C SDA |  |
-| 22 | I2C SCL |  |
-
 
 ### Small Defective
 When binking the onboard programmable led, HIGH turns the led off and LOW turns it on. This is because the led is connected to 3V3 (I believe) and not GND.
