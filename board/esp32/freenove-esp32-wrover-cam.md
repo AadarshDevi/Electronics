@@ -1,7 +1,8 @@
 # Freenove ESP32-WROVER-CAM
 
 ## Pinout
-
+> [!NOTE]
+> I do not own the image below
 <img width="1284" height="855" alt="image" src="https://github.com/user-attachments/assets/79b1fa50-6972-4e9b-a1ee-8ff55a6b94f4" />
 
 ## Setup
