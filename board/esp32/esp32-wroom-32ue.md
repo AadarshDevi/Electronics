@@ -16,9 +16,15 @@
 3. Close & reopen Arduino IDE
 4. Install: esp32 by Espressif Systems
 
-### Tools
+### Board Info
+
+#### Arduino IDE
 1. Tools > Board > esp32 > ESP32-WROOM-DA Module
 2. Tools > Flash Mode > DIO
+
+#### CLion PlatformIO
+1. New Project > PlatformIO
+2. Board: Espressif > Espressif ESP32 Dev Module (ESP32, 240 MHz, ROM: 4M, RAM: 320K) > espidf
 
 ## Upload Code
 1. Choose program to upload
