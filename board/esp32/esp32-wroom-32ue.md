@@ -36,7 +36,7 @@
 
 1. Board does not have an onboard programmable led
 
-### Board & Diagnostic Info
+### Debugging Info
 ```
 ets Jul 29 2019 12:21:46
 
