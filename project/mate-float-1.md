@@ -13,14 +13,15 @@
 
 | Bought | Item | Count | Link | Price |
 |:------:|:----:|:-----:|:----:|:-----:|
-| [ ] | ESP32-DevkitC-v4 | 1 |  |  |
-| [ ] | SX LoRa Module | 2 |  |  |
-| [ ] | Antenna + Adapter | 2 |  |  |
-| [ ] | Arduino Uno R3 | 1 |  |  |
-| [ ] | Red Led |  |  |  |
-| [ ] | Green Led |  |  |  |
-| [ ] | 220Ω Resistor |  |  |  |
-| [ ] | Blue Robotics Bar02 Sensor | 1 |  |  |
+| [x] | ESP32-DevkitC-v4 | 1 |  |  |
+| [x] | SX LoRa Module | 2 |  |  |
+| [x] | Antenna + Adapter | 2 |  |  |
+| [x] | Arduino Uno R3 | 1 |  |  |
+| [x] | Red Led |  |  |  |
+| [x] | Green Led |  |  |  |
+| [x] | 220Ω Resistor |  |  |  |
+| [x] | Blue Robotics Bar02 Sensor | 1 |  |  |
+| [x] | Blue Robotics Switch | 1 |  |  |
 
 ## Bill of Materials (Buoyancy)
 | Bought | Item | Count | Link | Price |
