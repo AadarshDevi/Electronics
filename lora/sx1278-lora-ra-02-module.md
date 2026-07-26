@@ -18,7 +18,7 @@
 | NSS  (SPI Input Pin)           | GPIO5               |    
 
 ## Library Manager
-Any libs that need to be installed
+1. LoRa by Sandeep Mistry
 
 ## Programming
 Code written for the project
