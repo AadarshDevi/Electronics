@@ -1,7 +1,7 @@
 # SX1278 LoRa RA-02 Module (433MHz)
 
 ## Components
-1. ESP32-WROVER-E
+1. ESP32-WROOM-32UE
 2. SX1278 LoRa RA-02 Module (433MHz)
 3. Jumper Wires
 
@@ -12,10 +12,10 @@
 | GND                            | GND                 |
 | MISO (SPI Data Pin)            | MISO                |
 | MOSI (SPI Data Pin)            | MOSI                |
-| SCK  (SPI Data Pin)            | SCK                | 
-| DIO0                           |                 |    
-| RST                            |                 |    
-| NSS  (SPI Input Pin)           |                 |    
+| SCK  (SPI Data Pin)            | SCK                 | 
+| DIO0                           | GPIO27              |    
+| RST                            | GPIO26              |    
+| NSS  (SPI Input Pin)           | GPIO5               |    
 
 ## Library Manager
 Any libs that need to be installed
