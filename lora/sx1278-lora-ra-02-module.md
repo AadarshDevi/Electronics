@@ -31,13 +31,39 @@
 LoRa.setPins(LORA_NSS_PIN, LORA_RST_PIN, LORA_DIO0_PIN);
 ```
 
-2. 
+2. Set Sync Word (Comms Channel), Coding Rate 4 (Error Correction), Signal Bandwidth (), Spreading Factor ()
+```c
+LoRa.setSignalBandwidth(SIGNAL_BANDWIDTH);
+LoRa.setSpreadingFactor(SPREAD_FACTOR);
+LoRa.setCodingRate4(CODE_RATING_4);
+LoRa.setSyncWord(SYNC_WORD);
+```
 
-## Additional Info
-aka Notes
+3. Send Data
+```c
+LoRa.beginPacket(); // start data packet
+LoRa.print("Count: "); // data
+LoRa.print(String(count)); // data
+LoRa.endPacket(); // close data packet and send it
+```
 
-## Projects
-list of projects that use the sensor/ic
+4. Receive Data
+```c
+String data = ""; // var to hold data
+int packetSize = LoRa.parsePacket(); // size of the packet = is there a packet? if no 0, if yes, give the packet size 
+
+if (packetSize) { // if packet size is greater than 0 (0 bytes)
+
+  // checks to ee how many bytes are available
+  // read every single byte
+  while (LoRa.available()) {
+    data += (char) LoRa.read();
+  }
+  data.trim();
+  Serial.println("Packet: \"" + data + "\"");
+}
+```
 
 ## Sources / Resources
 1. [Interfacing Esp32 with LoRa using Arduino IDE](https://embeddedthere.com/esp32-lora-tutorial-using-arduino-ide/)
+2. [LoRa API](https://github.com/sandeepmistry/arduino-LoRa/blob/master/API.md)
