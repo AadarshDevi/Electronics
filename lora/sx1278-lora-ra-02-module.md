@@ -54,7 +54,7 @@ int packetSize = LoRa.parsePacket(); // size of the packet = is there a packet? 
 
 if (packetSize) { // if packet size is greater than 0 (0 bytes)
 
-  // checks to ee how many bytes are available
+  // checks to see how many bytes are available
   // read every single byte
   while (LoRa.available()) {
     data += (char) LoRa.read();
