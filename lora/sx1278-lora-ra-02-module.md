@@ -21,7 +21,17 @@
 1. LoRa by Sandeep Mistry
 
 ## Programming
-Code written for the project
+
+1. Set LoRa SS/NSS, RST, DIO0 (Optional) Pins
+```c
+#define LORA_NSS_PIN 5 // slave select
+#define LORA_RST_PIN 26 // reset
+#define LORA_DIO0_PIN 27 // data pin
+
+LoRa.setPins(LORA_NSS_PIN, LORA_RST_PIN, LORA_DIO0_PIN);
+```
+
+2. 
 
 ## Additional Info
 aka Notes
