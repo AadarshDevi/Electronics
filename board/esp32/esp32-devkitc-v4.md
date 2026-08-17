@@ -1,4 +1,8 @@
-# ESP32-WROOM-32UE
+# ESP32-DevKitC-v4
+
+## Pinout
+
+<img width="1600" height="1600" alt="image" src="https://github.com/user-attachments/assets/ebcdbf63-3658-4351-89f0-058f890fb689" />
 
 ## Setup
 
