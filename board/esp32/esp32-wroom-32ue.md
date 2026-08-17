@@ -32,7 +32,7 @@
 3. When `Connecting..........` appears, press & hold the boot button
 4. Once `Hard resetting via RTS pin...` is in the terminal, press the EN button
 
-### Auto-Reset
+### Auto-Reset Circuit
 1. 10uF Polarized Capacitor from EN (+) to GND (-)
 2. 10kΩ Resistor from EN (+) to GND (-) 
 
