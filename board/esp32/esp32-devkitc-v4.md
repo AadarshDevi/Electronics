@@ -2,7 +2,7 @@
 
 ## Pinout
 
-<img width="1600" height="1600" alt="image" src="https://github.com/user-attachments/assets/ebcdbf63-3658-4351-89f0-058f890fb689" />
+<img width="1600" height="1091" alt="image" src="https://github.com/user-attachments/assets/d729998e-46a9-4266-914b-ec7636cf25cb" />
 
 ## Setup
 
