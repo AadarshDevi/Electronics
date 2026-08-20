@@ -1,9 +1,9 @@
 # ATTiny85
 
 ## Parts
-ATTiny85-20PU
-Jumper Wires
-Breadboard
+1. ATTiny85-20PU
+2. Jumper Wires
+3. Breadboard
 
 ## Connection
 
