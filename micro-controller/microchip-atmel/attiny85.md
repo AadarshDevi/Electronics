@@ -8,6 +8,10 @@ https://raw.githubusercontent.com/damellis/attiny/ide-1.6.x-boards-manager/packa
 2. Install Board Library: Board Manager > Search "attiny" by David A. Mellis
 3. Completely Close Arduino IDE
 4. Open Arduino IDE
+5. Tools > Board > attiny > ATtiny25/45/85
+6. Tools > Port > Select ATtiny Port
+7. Tools > Clock > Internal 8 MHz
+8. Tools > Processor > ATtiny85
 
 ## Parts
 1. ATTiny85-20PU
@@ -25,3 +29,7 @@ https://raw.githubusercontent.com/damellis/attiny/ide-1.6.x-boards-manager/packa
 | TX | Pin 3 | Yellow |
 
 ### Arduino Uno Programmer
+
+## Upload Code
+
+Upload Code
