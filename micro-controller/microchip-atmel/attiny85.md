@@ -1,6 +1,18 @@
 # ATTiny85
 
+## Parts
+1. ATTiny85-20PU
+2. Jumper Wires
+3. Breadboard
+
 ## Setup
+
+### Arduino Uno Q
+1. Upload Arduino ISP: File > Examples > ArduinoISP > ArduinoISP
+2. Tools > Board > Arduino Uno Q
+
+### Arduino IDE
+
 1. Add JSON Lib
 ```
 https://raw.githubusercontent.com/damellis/attiny/ide-1.6.x-boards-manager/package_damellis_attiny_index.json
@@ -13,14 +25,9 @@ https://raw.githubusercontent.com/damellis/attiny/ide-1.6.x-boards-manager/packa
 7. Tools > Clock > Internal 8 MHz
 8. Tools > Processor > ATtiny85
 
-## Parts
-1. ATTiny85-20PU
-2. Jumper Wires
-3. Breadboard
-
 ## Connection
 
-Arduino Uno Q :: 3V3 > 10uF Capacitor > Arduino Uno Q :: GND
+Arduino Uno Q :: RST > 10uF Capacitor > Arduino Uno Q :: GND
 
 | SPI | ATtiny85 | Arduino Uno Q | Wire |
 |:--:|:--:|:--:|
