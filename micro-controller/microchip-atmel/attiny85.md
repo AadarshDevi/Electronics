@@ -42,3 +42,16 @@ Arduino Duemilanove - RST > 10uF Capacitor > Arduino Duemilanove - GND
 ## Upload Code
 
 Sketch > Upload using Programmer
+
+## Additional
+
+### Change Clock Frequency
+
+1. Clock to 6.4MHz
+```
+"C:\Users\{User}\AppData\Local\Arduino15\packages\arduino\tools\avrdude\8.0.0-arduino1\bin\avrdude.exe" "-CC:\Users\{User}\AppData\Local\Arduino15\packages\arduino\tools\avrdude\8.0.0-arduino1\etc\avrdude.conf" -v -pattiny85 -cstk500v1 -PCOM11 -b19200 "-Ulfuse:w:0xe3:m"
+```
+2. Clock to 8MHz
+```
+"C:\Users\{User}\AppData\Local\Arduino15\packages\arduino\tools\avrdude\8.0.0-arduino1\bin\avrdude.exe" "-CC:\Users\{User}\AppData\Local\Arduino15\packages\arduino\tools\avrdude\8.0.0-arduino1\etc\avrdude.conf" -v -pattiny85 -cstk500v1 -PCOM11 -b19200 "-Ulfuse:w:0xe2:m"
+```
