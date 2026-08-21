@@ -52,7 +52,7 @@ Things to Change:
 2. change -pattiny85 with correct processor
 3. -PCOMXX to the attiny comm port
 
-Commands:
+Commands (Git Bash):
 1. Read Clock Frequency
 ```
 "C:\Users\{User}\AppData\Local\Arduino15\packages\arduino\tools\avrdude\8.0.0-arduino1\bin\avrdude.exe" "-CC:\Users\{User}\AppData\Local\Arduino15\packages\arduino\tools\avrdude\8.0.0-arduino1\etc\avrdude.conf" -v -pattiny85 -cstk500v1 -PCOM11 -b19200 "-Ulfuse:r:-:h"
