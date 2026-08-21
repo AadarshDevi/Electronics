@@ -21,6 +21,8 @@ https://raw.githubusercontent.com/damellis/attiny/ide-1.6.x-boards-manager/packa
 1. File > Examples > ArduinoISP > ArduinoISP Sketch
 2. Upload ArduinoISP sketch to Uno
 
+## Connect Arduino to ATtiny85
+
 Arduino RST Pin > 10uF Capacitor > Arduino GND Pin
 
 | SPI | ATtiny85 | Arduino Uno Q | Wire |
@@ -31,6 +33,14 @@ Arduino RST Pin > 10uF Capacitor > Arduino GND Pin
 | MISO | PB1 | Pin 12 | Yellow |
 | SCK | PB2 | Pin 13 | Green |
 | SS | RST | Pin ~10 | Blue |
+
+## Configure Arduino IDE for ATtiny85
+
+1. Tools > Board > attiny > ATtiny25/45/85
+2. Tools > Port > Select ATtiny Port
+3. Tools > Clock > Internal 8 MHz
+4. Tools > Processor > ATtiny85
+5. Tools > Programmer > Arduino as ISP
 
 ## Change Clock Frequency
 
@@ -51,48 +61,3 @@ Write CMDs below in Git Bash
 ```
 "C:\Users\{User}\AppData\Local\Arduino15\packages\arduino\tools\avrdude\8.0.0-arduino1\bin\avrdude.exe" "-CC:\Users\{User}\AppData\Local\Arduino15\packages\arduino\tools\avrdude\8.0.0-arduino1\etc\avrdude.conf" -v -pattiny85 -cstk500v1 -PCOM11 -b19200 "-Ulfuse:w:0xe2:m"
 ```
-
-## Setup
-
-### Arduino Uno Q
-1. Upload Arduino ISP: File > Examples > ArduinoISP > ArduinoISP
-2. Tools > Board > Arduino Uno Q
-
-### Arduino IDE
-
-
-2. Install Board Library: Board Manager > Search "attiny" by David A. Mellis
-3. Completely Close Arduino IDE
-4. Open Arduino IDE
-5. Tools > Board > attiny > ATtiny25/45/85
-6. Tools > Port > Select ATtiny Port
-7. Tools > Clock > Internal 8 MHz
-8. Tools > Processor > ATtiny85
-9. Tools > Programmer > Arduino as ISP
-
-## Connection
-
-## Arduino Duemilanove
-Arduino Duemilanove - RST > 10uF Capacitor > Arduino Duemilanove - GND
-| SPI | ATtiny85 | Arduino Uno Q | Wire |
-|:--:|:--:|:--:|:--:|
-| - | VCC | 5V | Red |
-| - | GND | GND | Black |
-| MOSI | PB0 | Pin ~11 | Orange |
-| MISO | PB1 | Pin 12 | Yellow |
-| SCK | PB2 | Pin 13 | Green |
-| SS | RST | Pin ~10 | Blue |
-
-## Upload Code
-
-Sketch > Upload using Programmer
-
-## Additional
-
-### Change Clock Frequency
-
-Things to Change:
-
-
-Commands (Git Bash):
-
