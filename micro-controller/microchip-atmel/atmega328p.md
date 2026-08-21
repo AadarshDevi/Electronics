@@ -4,7 +4,8 @@
 
 ## Setup Programmer
 
-attiny85
+1. File > Examples > ArduinoISP > ArduinoISP Sketch
+2. Upload ArduinoISP sketch to Uno
 
 ## Connection
 
@@ -39,4 +40,11 @@ https://mcudude.github.io/MiniCore/package_MCUdude_MiniCore_index.json
 7. Tools > Complier LTO > LTO Enabled
 8. Tools > Variant > 328P/328PA
 9. Tools > Programmer > Arduino as ISP
-10. Tools > Burn Bootloader
+
+## Burn Bootloader
+
+Tools > Burn Bootloader
+
+## Upload code to ATmega328P via Arduino Uno
+
+Sketch > Upload using Programmer
