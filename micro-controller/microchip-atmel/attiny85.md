@@ -23,7 +23,7 @@ https://raw.githubusercontent.com/damellis/attiny/ide-1.6.x-boards-manager/packa
 
 ## Connect Arduino to ATtiny85
 
-Arduino RST Pin > 10uF Capacitor > Arduino GND Pin
+Arduino RST Pin > 10uF Electrolyte Capacitor > Arduino GND Pin
 
 | SPI | ATtiny85 | Arduino Uno Q | Wire |
 |:--:|:--:|:--:|:--:|
