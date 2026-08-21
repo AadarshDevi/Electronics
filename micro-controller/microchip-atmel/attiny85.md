@@ -24,6 +24,7 @@ https://raw.githubusercontent.com/damellis/attiny/ide-1.6.x-boards-manager/packa
 6. Tools > Port > Select ATtiny Port
 7. Tools > Clock > Internal 8 MHz
 8. Tools > Processor > ATtiny85
+9. Tools > Programmer > Arduino as ISP
 
 ## Connection
 
@@ -40,4 +41,4 @@ Arduino Uno Q :: RST > 10uF Capacitor > Arduino Uno Q :: GND
 
 ## Upload Code
 
-Upload Code
+Sketch > Upload using Programmer
