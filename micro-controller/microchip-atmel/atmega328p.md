@@ -7,7 +7,14 @@
 attiny85
 
 ## Connection
-
+| Pin | Arduino Uno | ATmega328P | Wire |
+|:----:|:----:|:----:|:----:|
+| 5V | 5V | VCC | Red |
+| GND | GND | GND | Black |
+| MOSI | ~11 | PB3 | Orange |
+| MISO | 12 | PB4 | Yellow |
+| SCK | 13 | PB5 | Green |
+| SS | ~10 | RST | Blue |
 
 ## Arduino IDE Setup
 
