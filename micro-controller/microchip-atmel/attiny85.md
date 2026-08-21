@@ -47,7 +47,11 @@ Sketch > Upload using Programmer
 
 ### Change Clock Frequency
 
-1. Clock to 6.4MHz
+1. Read Clock Frequency
+```
+"C:\Users\{User}\AppData\Local\Arduino15\packages\arduino\tools\avrdude\8.0.0-arduino1\bin\avrdude.exe" "-CC:\Users\{User}\AppData\Local\Arduino15\packages\arduino\tools\avrdude\8.0.0-arduino1\etc\avrdude.conf" -v -pattiny85 -cstk500v1 -PCOM11 -b19200 "-Ulfuse:r:-:h"
+```
+2. Clock to 6.4MHz
 ```
 "C:\Users\{User}\AppData\Local\Arduino15\packages\arduino\tools\avrdude\8.0.0-arduino1\bin\avrdude.exe" "-CC:\Users\{User}\AppData\Local\Arduino15\packages\arduino\tools\avrdude\8.0.0-arduino1\etc\avrdude.conf" -v -pattiny85 -cstk500v1 -PCOM11 -b19200 "-Ulfuse:w:0xe3:m"
 ```
