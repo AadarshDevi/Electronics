@@ -7,6 +7,9 @@
 attiny85
 
 ## Connection
+
+Arduino RST Pin > 10uF Electrolyte Capacitor > Arduino GND Pin
+
 | Pin | Arduino Uno | ATmega328P | Wire |
 |:----:|:----:|:----:|:----:|
 | 5V | 5V | VCC | Red |
