@@ -30,7 +30,7 @@ https://raw.githubusercontent.com/damellis/attiny/ide-1.6.x-boards-manager/packa
 Arduino Uno Q :: RST > 10uF Capacitor > Arduino Uno Q :: GND
 
 | SPI | ATtiny85 | Arduino Uno Q | Wire |
-|:--:|:--:|:--:|
+|:--:|:--:|:--:|:--:|
 | - | VCC | 5V | Red |
 | - | GND | GND | Black |
 | MOSI | PB0 | Pin ~11 | Orange |
