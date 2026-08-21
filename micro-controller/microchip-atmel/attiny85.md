@@ -28,6 +28,18 @@ https://raw.githubusercontent.com/damellis/attiny/ide-1.6.x-boards-manager/packa
 
 ## Connection
 
+## Arduino Duemilanove
+Arduino Duemilanove - RST > 10uF Capacitor > Arduino Duemilanove - GND
+| SPI | ATtiny85 | Arduino Uno Q | Wire |
+|:--:|:--:|:--:|:--:|
+| - | VCC | 5V | Red |
+| - | GND | GND | Black |
+| MOSI | PB0 | Pin ~11 | Orange |
+| MISO | PB1 | Pin 12 | Yellow |
+| SCK | PB2 | Pin 13 | Green |
+| SS | RST | Pin ~10 | Blue |
+
+## Arduino Uno Q
 Arduino Uno Q :: RST > 10uF Capacitor > Arduino Uno Q :: GND
 
 | SPI | ATtiny85 | Arduino Uno Q | Wire |
