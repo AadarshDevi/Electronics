@@ -13,4 +13,7 @@
    3. Version: 1.62.0
    4. Author: Paul Stoffregen
 
+3. Setup Board:
+   1. Tools > Board > Teensy (for Arduino IDE 2.0.4 or later) > Teensy 4.1
+
 ### CLion PlatformIO
