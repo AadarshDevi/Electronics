@@ -19,3 +19,10 @@
    3. Tools > USB Type > Serial
 
 ### CLion PlatformIO
+
+
+## Upload Code
+
+### Arduino IDE
+
+1. Click Upload
