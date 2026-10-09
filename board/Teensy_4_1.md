@@ -21,6 +21,18 @@
 
 ### CLion PlatformIO
 
+
+### Command Line
+
+1. Create Folder: `My_PlatformIO_Project`
+2. Move into folder
+3. Create PlatformIO Project:
+   ```bash
+   pio project init --board teensy41
+   ```
+4. Open in IDE
+
+
 ## Upload Code
 
 ### Arduino IDE
