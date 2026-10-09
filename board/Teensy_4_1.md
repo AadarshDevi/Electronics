@@ -15,5 +15,7 @@
 
 3. Setup Board:
    1. Tools > Board > Teensy (for Arduino IDE 2.0.4 or later) > Teensy 4.1
+   2. Tools > CPU Speed > 600 MHz
+   3. Tools > USB Type > Serial
 
 ### CLion PlatformIO
