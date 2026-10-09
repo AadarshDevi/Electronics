@@ -21,9 +21,9 @@
 
 ### CLion PlatformIO
 
-
 ## Upload Code
 
 ### Arduino IDE
 
-1. Click Upload
+1. Press Program Mode Button (Press and Hold)
+2. Click Upload
