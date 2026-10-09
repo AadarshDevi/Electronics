@@ -30,7 +30,10 @@
    ```bash
    pio project init --board teensy41
    ```
-4. Open in IDE
+4. Create Git Repo
+   ```
+   git init
+   ```
 
 
 ## Upload Code
