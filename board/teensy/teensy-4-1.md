@@ -2,7 +2,8 @@
 
 ## Pinout
 
-// picture
+https://www.pjrc.com/teensy/card11a_rev3_web.png
+
 ## Setup
 
 ### Arduino IDE
