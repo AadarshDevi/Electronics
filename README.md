@@ -8,9 +8,9 @@
 3. Arduino Duemilanove
 
 ### ESP32
-1. ESP32 DevkitC-v4
+1. [ESP32 DevkitC-v4](/board/esp32/esp32-devkitc-v4.md)
 2. ESP32-CAM w/ ESP32-CAM-MB
-3. Freenove ESP32 WROVER CAM
+3. [Freenove ESP32 WROVER CAM](/board/esp32/freenove-esp32-wrover-cam.md)
 
 ### Raspberry Pi
 1. Raspberry Pi 2

@@ -190,10 +190,10 @@
   },
   "active": "1830e6a695fe4002",
   "lastOpenFiles": [
-    "board/teensy/teensy-4-1.md",
+    "board/esp32/esp32-devkitc-v4.md",
     "README.md",
     "board/esp32/freenove-esp32-wrover-cam.md",
-    "board/esp32/esp32-devkitc-v4.md",
+    "board/teensy/teensy-4-1.md",
     "adc/ad7606.md",
     "stepper-motor/28byj-48.md",
     "template.md",
