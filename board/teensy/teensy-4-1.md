@@ -1,44 +1,43 @@
 # Teensy 4.1
 
+## Pinout
+
+// picture
 ## Setup
 
 ### Arduino IDE
-1. Add Lib: File > Preferences > Additional Boards Manager URL:
+
+#### Board Manager
+
+1. File > Preferences > ***Additional boards manager URLs*** window button
+2. Add JSON link
    ```javascript
    https://www.pjrc.com/teensy/package_teensy_index.json
    ```
-2. Add Board: Board Manager
-   1. Search @ "Teensy"
-   2. Board Name: Teensy (for Arduino IDE 2.0.4 or later)
-   3. Version: 1.62.0
-   4. Author: Paul Stoffregen
+3. Close and reopen Arduino IDE
+4. Board Manager > Search @ "Teensy"
+5. Install: Teensy (for Arduino IDE 2.0.4 or later) by Paul Stoffregen
 
-3. Setup Board:
-   1. Tools > Board > Teensy (for Arduino IDE 2.0.4 or later) > Teensy 4.1
-   2. Tools > CPU Speed > 600 MHz
-   3. Tools > USB Type > Serial
-   4. Tools > Port > COM{X} Serial (Teensy 4.1)
+#### Board Setup
+1. Tools > Board > Teensy (for Arduino IDE 2.0.4 or later) > Teensy 4.1
+2. Tools > Port > COM{X} Serial (Teensy 4.1)
+3. Tools > CPU Speed > 600 MHz
+4. Tools > USB Type > Serial
 
 ### CLion PlatformIO
 
-
-### Command Line
+### PlatformIO CLI
 
 1. Create Folder: `My_PlatformIO_Project`
-2. Move into folder
-3. Create PlatformIO Project:
-   ```bash
-   pio project init --board teensy41
-   ```
-4. Create Git Repo
-   ```
-   git init
-   ```
-
-
+2. Go into folder: `cd My_PlatformIO_Project`
+3. Create PlatformIO Project: `pio project init --board teensy41`
+4. Create Git repo: `git init`
 ## Upload Code
 
 ### Arduino IDE
 
-1. Press Program Mode Button (Press and Hold)
-2. Click Upload
+1. Choose program to upload
+2. Press Program Mode Button (Press and Hold): Big white button in the center.
+3. Click Upload button
+## Additional Info
+
