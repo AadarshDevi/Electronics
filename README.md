@@ -37,5 +37,9 @@
 ### Stepper
 1. [28BYJ-48](/stepper-motor/28byj-48.md)
 
+## Other
+
+### Analog-Digital Convertor
+1. [AD7606](/adc/ad7606.md)
 # To-do
 1. ad7606 and teensy 4.1 docs update
