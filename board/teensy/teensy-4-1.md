@@ -2,7 +2,7 @@
 
 ## Pinout
 
-https://www.pjrc.com/teensy/card11a_rev3_web.png
+![https://www.pjrc.com/teensy/card11a_rev3_web.png]
 
 ## Setup
 
