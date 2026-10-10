@@ -28,18 +28,12 @@
 1. [Teensy 4.1](/board/teensy/teensy-4-1.md)
 
 ### STM32
-
->[!NOTE]
->I do not have one
-
 ## Motors
 
 ### Servo
 1. [HS-422](/servo-motor/hs-422.md)
 
 ### Motor
-1. 
-
 ### Stepper
 1. [28BYJ-48](/stepper-motor/28byj-48.md)
 
