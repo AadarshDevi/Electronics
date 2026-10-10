@@ -188,10 +188,14 @@
       "bases:Create new base": false
     }
   },
-  "active": "8610f047fc5d8efc",
+  "active": "1830e6a695fe4002",
   "lastOpenFiles": [
-    "ultrasonic-sensor/HC-SR04.md",
+    "board/esp32/freenove-esp32-wrover-cam.md",
+    "board/esp32/esp32-devkitc-v4.md",
+    "adc/ad7606.md",
+    "stepper-motor/28byj-48.md",
     "README.md",
-    "template.md"
+    "template.md",
+    "ultrasonic-sensor/HC-SR04.md"
   ]
 }
