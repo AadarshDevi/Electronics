@@ -12,8 +12,8 @@
 3. Ports (COM & LPT) > **Silicon Labs CP210x USB to UART Bridge** will be there
 
 ### Board Manager
-1. File > Preferences > Additional boards mamanger URLs window button
-2. Add json link
+1. File > Preferences > ***Additional boards manager URLs*** window button
+2. Add JSON link
 ```json
    https://espressif.github.io/arduino-esp32/package_esp32_index.json
 ```
@@ -59,5 +59,3 @@ load:0x40080400,len:3500
 entry 0x400805b4
 ```
 The ESP32 will send out diagnostic/board information like above. In order to not get this information on the Serial Monitor/Communication, GPIO15 (15, IO15) has to be connected to GND.
-
-**_[ WARNING ]_** When GPIO15 is connected to GND, code cannot be uploaded.
