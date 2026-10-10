@@ -29,13 +29,13 @@
 ## Motors
 
 ### Servo
-1. 
+1. [HS-422](/servo-motor/hs-422.md)
 
 ### Motor
 1. 
 
 ### Stepper
-1. 
+1. [28BYJ-48](/stepper-motor/28BYJ-48.md)
 
 # To-do
 1. ad7606 and teensy 4.1 docs update

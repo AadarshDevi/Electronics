@@ -42,8 +42,8 @@
               "state": {
                 "sortOrder": "alphabetical",
                 "autoReveal": false,
-                "showSearch": false,
-                "searchQuery": ""
+                "showSearch": true,
+                "searchQuery": "m"
               },
               "icon": "lucide-folder-closed",
               "title": "Files"
@@ -188,7 +188,7 @@
       "bases:Create new base": false
     }
   },
-  "active": "1830e6a695fe4002",
+  "active": "8610f047fc5d8efc",
   "lastOpenFiles": [
     "board/esp32/esp32-devkitc-v4.md",
     "README.md",
