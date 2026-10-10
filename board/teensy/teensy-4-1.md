@@ -3,7 +3,6 @@
 ## Pinout
 
 <img width="632" height="685" alt="image" src="https://github.com/user-attachments/assets/cb3690c5-88c5-44e1-8a77-40cac9b4dfd7" />
-
 ## Setup
 
 ### Arduino IDE
