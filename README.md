@@ -23,8 +23,19 @@
 
 ### STM32
 
->[-!NOTE]
+>[!NOTE]
 >I do not have one
+
+## Motors
+
+### Servo
+1. 
+
+### Motor
+1. 
+
+### Stepper
+1. 
 
 # To-do
 1. ad7606 and teensy 4.1 docs update
