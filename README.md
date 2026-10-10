@@ -19,7 +19,7 @@
 4. Raspberry Pi Pico 2 W
 
 ### Teensy
-1. [[teensy-4-1]]
+1. [Teensy 4.1](/board/teensy/teensy-4-1.md)
 
 ### STM32
 
