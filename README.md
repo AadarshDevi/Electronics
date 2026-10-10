@@ -2,6 +2,12 @@
 
 ## Microcontrollers
 
+### Atmel / Microchip
+1. [ATTiny85](/micro-controller/microchip-atmel/attiny85.md)
+2. [ATmega328P](/micro-controller/microchip-atmel/atmega328p.md)
+
+## Development Boards
+
 ### Arduino
 1. Arduino Uno R3
 2. Arduino Uno Q
